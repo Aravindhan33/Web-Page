@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   background-color: black;
+}
+section{
+    height: 250px;
+    width: 350px;
+    background-image: radial-gradient( rgb(245, 245, 245), rgb(97, 255, 163),blue);
+    border-radius: 10px;
+    border: 3px solid black;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section form table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+section form table #submit_button{
+    height: 30px;
+    width: 70px;
+    background-color: green;
+    border: 2px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    border-radius: 5px;
+    font-weight: bold;
+}
+section form table #reset_button{
+    height: 30px;
+    width: 70px;
+    background-color: orangered;
+    border: 2px solid orangered;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+input[type="text"]{
+    outline:none;
+}
+input[type="password"]{
+    outline:none;
+}
+.success{
+    border: 3px solid green;
+    border-radius: 3px;
+}
+.warning{
+    border: 3px solid rgb(255, 0, 0);
+    border-radius: 3px;
+}
+
+#submit_button.disabled{
+    background-color: rgb(18, 9, 27);
+    opacity: 50%;
+}
+
